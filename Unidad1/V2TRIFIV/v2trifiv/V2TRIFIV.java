@@ -22,10 +22,10 @@ public class V2TRIFIV {
             } else if (mult5==0){
                 System.out.println("Fiv");
             }
-         if (mult3==0 && mult5==0){
+            if (mult3==0 && mult5==0){
              System.out.println("Trifiv");
-         }
-    }
-}
+           }
+      }
+ }
     
 
