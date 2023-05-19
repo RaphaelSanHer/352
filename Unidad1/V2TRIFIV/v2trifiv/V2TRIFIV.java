@@ -1,10 +1,11 @@
 
 package v2trifiv;
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 public class V2TRIFIV {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)throws IOException {
         // declarar variables
         int numero, mult3, mult5;
         BufferedReader bufEntrada= new BufferedReader (new InputStreamReader (System.in));
