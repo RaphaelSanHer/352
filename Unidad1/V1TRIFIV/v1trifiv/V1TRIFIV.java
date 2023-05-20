@@ -16,19 +16,18 @@ public class V1TRIFIV {
         BufferedReader bufEntrada= new BufferedReader (new InputStreamReader (System.in));
         System.out.println("Ingresa valor");
         numero = Integer.parseInt(bufEntrada. readLine ());
-
-        
-        
-         mult3= numero % 3;
+ 
+        mult3= numero % 3;
         mult5= numero % 5;
         
         if (mult3==0){
             System.out.println("TRI");}
-            if (mult5==0){
-                System.out.println("Fiv");}
-             if (mult3==0 && mult5==0){
-                System.out.println("TRIFIV");}
+        if (mult5==0){
+            System.out.println("Fiv");}
+        if (mult3==0 && mult5==0){
+            System.out.println("TRIFIV");}
        } 
-} 
+}
+ 
  
 
