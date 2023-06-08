@@ -8,12 +8,18 @@ public class Procedenciadeoperaciones {
    
        
     static double 
-       a=0, b=0, c=0, d=0, e=0, f=0, g=0, h=0, j=0, m=0, n=0, p=0, q=0, r=0, s=0, x=0, y=0;
+       a=0, b=0, c=0,
+       d=0, e=0, f=0,
+       g=0, h=0, j=0,
+       m=0, n=0, p=0,
+       q=0, r=0, s=0,
+       x=0, y=0;
          
     public static void main(String[] args) {
         solicitarDatos();
         
-        Operaciones(a, b, c, d, e, f, g, h, j, m, n, p, q, r, s, x, y);
+        Operaciones
+           (a, b, c, d, e, f, g, h, j, m, n, p, q, r, s, x, y);
  
     }
     public static void solicitarDatos(){
