@@ -13,6 +13,7 @@ public class V1TRIFIV {
        public static void main(String[] args)throws IOException{ 
         // declarar variables
         int numero, mult3, mult5;
+      
         BufferedReader bufEntrada= new BufferedReader (new InputStreamReader (System.in));
         System.out.println("Ingresa valor");
         numero = Integer.parseInt(bufEntrada. readLine ());
