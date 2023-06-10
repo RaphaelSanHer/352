@@ -15,7 +15,7 @@ public class V2TRIFIV {
         mult3= numero % 3;
         mult5= numero % 5;
         //Salida de datos
-            if(mult3 ==0 && mult5 == ){
+              if(mult3 ==0 && mult5 == ){
                 System.out.println("TRIFIV");
             } else if (mult3==0){
                 System.out.println("TRI");
