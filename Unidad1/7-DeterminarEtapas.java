@@ -3,7 +3,7 @@ package pkg7.determinaretapas;
 
 
 import java.util.Scanner;
-public class Edades {
+public class 7-DeterminarEtapas {
 static int Edad = 0;
 
         public static void main(String[] args) {
